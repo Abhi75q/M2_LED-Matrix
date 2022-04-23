@@ -189,8 +189,10 @@ char ALPHA[]={0,0,0,0,0,0,0,0,0,0,0,
 
 
 ## SimulIDE diagram:
+
+ ![simulation](https://user-images.githubusercontent.com/100043455/164885034-56c2f3ec-66e4-4117-b9d4-0b8f02081af2.jpeg)
+
  
- ![image](https://user-images.githubusercontent.com/100043455/164884335-5c87fabb-8bda-4ee8-a7fe-965279a6005e.png)
 
 
 In the diagram I have used atmega328.
