@@ -1,11 +1,18 @@
 # Requirements for the project are -
 ATMEGA328
+
 Power supply (5v)
+
 64 LEDs
-100Ω resistors (8 pieces),
+
+100Ω resistors (8 pieces)
+
 SimilIDE for simulation
-VS code for compilation, for make file
+
+VS code for compilation, and for make file
+
 Winavr for hexfile
+
 
 ## ATMega328-
 The high-performance Microchip 8-bit AVR® RISC-based microcontroller combines 32 KB ISP Flash memory with read-while-write capabilities, 1 KB EEPROM, 2 KB SRAM, 23 general purpose I/O lines, 32 general purpose working registers, three flexible timer/counters with compare modes, internal and external interrupts, serial programmable USART, a byte-oriented Two-Wire serial interface, SPI serial port, 6-channel 10-bit A/D converter (8-channels in TQFP and QFN/MLF packages), programmable watchdog timer with internal oscillator, and five software selectable power saving modes. The device operates between 1.8-5.5 volts.
