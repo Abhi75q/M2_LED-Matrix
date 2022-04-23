@@ -58,34 +58,53 @@ Let’s say for example, we want to only turn on LED57 and LED50 without turning
 ## Program-
 
 #define _AVR_ATmega328p_
+
   #define _AVR_ATmega328_
+  
   #endif
 
 
   #include <avr/io.h>
+  
 #ifndef _OPTIMIZE_
+
 #endif
 
 
     
 #define F_CPU 11059200UL //defining crystal frequency
+
 #include <util/delay.h>  //delay header
+
 #define DDRB _SFR_IO8(0x04)
+
 #define DDB0 0
+
 #define DDB1 1
+
 #define DDB2 2
+
 #define DDB3 3
+
 #define DDB4 4
+
 #define DDB5 5
+
 #define DDB6 6
+
 #define DDB7 7
 
 
 #define PORTB _SFR_IO8(0x05)
+
 #define PORTB0 0
+
 #define PORTB1 1
+
 #define PORTB2 2
+
 #define PORTB3 3
+
 #define PORTB4 4
 #define PORTB5 5
 #define PORTB6 6
